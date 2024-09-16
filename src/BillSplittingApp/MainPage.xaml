@@ -140,14 +140,40 @@
                 Grid.Row="3"
                 Grid.Column="1">
                 <Button
-                    BackgroundColor="#000" />
+                    BackgroundColor="#000" 
+                    Text="-"
+                    FontSize="Large"
+                    CornerRadius="5"
+                    HeightRequest="60"
+                    WidthRequest="70" />
 
                 <Label
-                    Text=""/>
+                    BackgroundColor="#393939"
+                    Text="1"
+                    TextColor="#fff"
+                    FontSize="Large"
+                    HorizontalTextAlignment="Center"
+                    VerticalTextAlignment="Center"
+                    HeightRequest="60"
+                    WidthRequest="100" />
 
                 <Button
-                    BackgroundColor="#000" />
+                    BackgroundColor="#000" 
+                    Text="+"
+                    FontSize="Large"
+                    CornerRadius="5"
+                    HeightRequest="60"
+                    WidthRequest="70" />
             </HorizontalStackLayout>
+
+            <Button
+                Grid.Row="4"
+                Grid.ColumnSpan="2"
+                BackgroundColor="#000" 
+                Text="Iniciar" 
+                FontSize="Large"
+                HeightRequest="70"
+                WidthRequest="340" />
 
         </Grid>
     </Grid>
